@@ -1,0 +1,179 @@
+.header {
+   position: relative;
+   min-height: 100vh !important;
+   width: 100%;
+   background: #161415 url(../media/header-background.jpg) no-repeat top center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
+   color: #fff;
+   margin-bottom: 40px
+}
+
+
+.header .links{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px
+}
+
+
+.header .links a{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 20px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	transition: ease 0.6s;
+	text-transform: uppercase;	
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header .links a:hover{
+	color: coral;
+}
+
+.active{
+	color: black;
+}
+
+.info h1{
+	font-size: 70px;
+	padding: 0px;
+	margin: 0px
+}
+
+.info h3{
+	margin: 0 auto;
+	width: 70%;
+	font-weight: initial;
+	line-height: 35px;
+	word-spacing: 2px
+}
+
+.social {
+	padding:auto;
+	margin-top: 35px;
+}
+
+.social a{
+	color: #fff;
+	padding: 8px;
+	transition: ease 0.6s;
+}
+
+.social a:hover{
+	color: #96fdfd;
+}
+
+#home{
+	transition-duration: 0.7s;
+}
+
+.header button{
+	margin-top: 40px;
+	padding: 10px 15px ;
+	display: inline-flex;
+	align-items: center;
+	border-radius: 10px;
+	outline: none;
+	border-width: 0px;
+	background-color: #1046a0;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: ease 0.7s;
+}
+
+.header button:hover{
+	background-color: #2310a0;
+}
+
+.down_arrow{
+	color: white;
+	position: absolute;
+	bottom: 20px;
+	transition: ease 0.7s;
+}
+
+.down_arrow:hover{
+	color: lightGrey;
+	
+}
+
+.skills-img:after{
+content: '';
+position:absolute;
+top:0;
+left: 0;
+width:50%;
+height:90px;
+background: rgba(100, 100, 100, 0.5);
+border-radius: 45px 0 0 45px;
+}
+
+.skills-box:hover .skills-img{
+transform: translateX(-20px);
+}
+
+.btn{
+	transition: ease 0.6s;
+}
+
+.icon{
+	transition: ease 0.7s;
+}
+
+.btn:hover{
+	color: #fff !important;
+	background-color: blue;
+}
+
+.icon:hover{
+	border-radius: 50%;
+	background-color:#96fdfd;
+}
+
+
+
+@media (max-width: 600px){
+	.dialog{
+	   width:100% !important;
+     }
+}
+
+@media (max-width:540px){
+	.header .links{
+	   display: none;
+    }
+    
+}
+
+@media (max-width:800px){
+	.info h1{
+	 font-size: 40px;
+    }
+    .skillsimg{
+    	width:500px !important;
+    }
+
+}
+
+@media (max-width:470px){
+	.down_arrow{
+	 display: none;
+    }
+    .info h3{
+    	line-height: normal;
+    }
+     .skillsimg{
+    	width:300px !important;
+    }
+}
