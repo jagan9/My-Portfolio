@@ -4,7 +4,7 @@ let resumeData = {
   role: 'MERN Stack Developer and a Competitive Programmer',
   linkedinId: 'https://www.linkedin.com/in/kamandla-jagan-b751501ab/',
   roleDescription:
-    " I'm currently in my Intermediate second year, pursuing 6 years course in IIIT(RGUKT) BASAR. I like to learn about new technologies, make technical tutorials or simply play badminton in my free time.",
+    "A final-year B.Tech CSE student at RGUKT Basar.  I am a passionate MERN Stack Developer and Competitive Programmer, eager to start my professional career. With my experience in full stack development, I have successfully completed numerous projects, showcasing my ability to turn ideas into practical applications. I am actively seeking opportunities to work on industry projects that have a tangible impact on real users. My goal is to contribute to a dynamic team, continuously improving my technical skills and adapt to new challenges. Below are my skills, tech stack, and projects.",
   socialLinks: [
     {
       name: 'linkedin',
@@ -17,8 +17,8 @@ let resumeData = {
       className: 'fa fa-github',
     },
     {
-      name: 'facebook',
-      url: 'https://www.facebook.com/search/top?q=kamandla%20jagan',
+      name: 'Codechef',
+      url: 'https://www.codechef.com/users/jagan_9',
       className: 'fa fa-facebook',
     },
     {
@@ -27,21 +27,21 @@ let resumeData = {
       className: 'fa fa-envelope',
     },
     {
-      name: 'youtube',
-      url: 'https://www.youtube.com/channel/UCbAI-DRaW65k-Wb7OjW1ytQ',
+      name: 'Leetcode',
+      url: 'https://leetcode.com/u/jagan__9/',
       className: 'fa fa-youtube',
     },
   ],
   aboutme:
-    " I'm currently in my Intermediate second year, pursuing 6 years course in IIIT(RGUKT) BASAR. I like to learn about new technologies, make technical tutorials or simply play badminton in my free time.",
+    "A final-year B.Tech CSE student at RGUKT Basar.  I am a passionate MERN Stack Developer and Competitive Programmer, eager to start my professional career. With my experience in full stack development, I have successfully completed numerous projects, showcasing my ability to turn ideas into practical applications. I am actively seeking opportunities to work on industry projects that have a tangible impact on real users. My goal is to contribute to a dynamic team, continuously improving my technical skills and adapt to new challenges. Below are my skills, tech stack, and projects.",
   address: 'India',
   website: 'https://jagan9.netlify.app/',
   education: [
     {
       UniversityName: 'Indian Institutes of Information Technology (IIIT) Basar',
       specialization: 'B.Tech in Computer Science and Engineering',
-      duration: 'July 2020 - May 2026',
-      Achievements: 'CGPA - 9.10',
+      duration: 'July 2020 - May 2025',
+      Achievements: 'CGPA - 8.97',
     },
     {
       UniversityName: 'Zilla Parishat High School (ZPHS) Raghunathpur',
@@ -121,6 +121,21 @@ let resumeData = {
         }
       ],
     },
+    {
+      category: 'Tools',
+      list: [
+        {
+          img: 'https://cdn-icons-png.flaticon.com/512/25/25231.png',
+          name: 'Git',
+        },
+        {
+          img:
+            'https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8',
+          name: 'PostMan',
+        },
+        
+      ],
+    },
   ],
   portfolio: [
     {
@@ -159,6 +174,24 @@ let resumeData = {
       links: {
         launch: 'https://rgukt-ola.web.app/',
         github: 'https://github.com/jagan9/RGUKT-OLA',
+      },
+    },
+    {
+      title: 'Tower of Hanoi',
+      intro:
+        "Visually simulate the Tower of Hanoi using the recursive algorithm to calculate and execute the optimal sequence",
+      des:
+        'A simple Tower of Hanoi visualizer. It has the following features :  ',
+      points: [
+        ' The Tower of Hanoi is a simple mathematical puzzle that can easily assess the problem-solving capabilities of an individual',
+        'User can select upto 6 disks',
+        'Finds Optimal moves required to solve',
+      ],
+      imgurl: '../media/portfolio/tower-of-hanoi.png',
+      techstack: ['HTML', 'CSS', 'Javascript', 'DSA Algo'],
+      links: {
+        launch: 'https://jagan9.github.io/tower-of-hanoi/',
+        github: 'https://github.com/jagan9/tower-of-hanoi',
       },
     },
     {

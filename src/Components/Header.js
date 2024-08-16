@@ -2,9 +2,8 @@ import React from 'react';
 import './header.css';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import FacebookIcon from '@material-ui/icons/Facebook';
+import Codechef from '@material-ui/icons/ClosedCaption';
 import EmailIcon from '@material-ui/icons/Email';
-import YouTubeIcon from '@material-ui/icons/YouTube';
 import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile';
 import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
 
@@ -44,18 +43,17 @@ class Header extends React.Component {
 						<a href="https://www.linkedin.com/in/kamandla-jagan-b751501ab/" target="_blank">
 							<LinkedInIcon fontSize="large" />
 						</a>
-						<a href="http://github.com/jagan9" target="_blank">
-							<GitHubIcon fontSize="large" />
-						</a>
-						<a href="https://www.facebook.com/search/top?q=kamandla%20jagan" target="_blank">
-							<FacebookIcon fontSize="large" />
+						<a href="https://www.codechef.com/users/jagan_9" target="_blank">
+							<Codechef fontSize="large" />
 						</a>
 						<a href="mailto:kamandlajagan@gmail.com" target="_blank">
 							<EmailIcon fontSize="large" />
 						</a>
-						<a href="https://www.youtube.com/channel/UCbAI-DRaW65k-Wb7OjW1ytQ" target="_blank">
-							<YouTubeIcon fontSize="large" />
+						<a href="http://github.com/jagan9" target="_blank">
+							<GitHubIcon fontSize="large" />
 						</a>
+						
+						
 					</div>
 					<a href="/jagancv.pdf" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: "none" }}>
 						<button>

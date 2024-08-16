@@ -2,9 +2,8 @@ import React from 'react';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import FacebookIcon from '@material-ui/icons/Facebook';
 import EmailIcon from '@material-ui/icons/Email';
-import YouTubeIcon from '@material-ui/icons/YouTube';
+import Codechef from '@material-ui/icons/ClosedCaption';
 
 class Footer extends React.Component {
 	render() {
@@ -33,18 +32,16 @@ class Footer extends React.Component {
 			  <a href="https://www.linkedin.com/in/kamandla-jagan-b751501ab/" target="_blank">
 			 <LinkedInIcon />
 			 </a>
-			 <a href="http://github.com/jagan9" target="_blank">
-			 <GitHubIcon />
-			 </a>
-			 <a href="https://www.facebook.com/search/top?q=kamandla%20jagan" target="_blank">
-			 <FacebookIcon />
+			 <a href="https://www.codechef.com/users/jagan_9" target="_blank">
+			 <Codechef />
 			 </a>
 			 <a href="mailto:kamandlajagan@gmail.com" target="_blank">
 			 <EmailIcon />
 			 </a>
-			 <a href="https://www.youtube.com/channel/UCbAI-DRaW65k-Wb7OjW1ytQ" target="_blank">
-			 <YouTubeIcon/>
+			 <a href="http://github.com/jagan9" target="_blank">
+			 <GitHubIcon />
 			 </a>
+			
 			 </div>
 			</div>
 		)
