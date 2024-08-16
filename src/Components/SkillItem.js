@@ -35,6 +35,7 @@ function SkillItem(props) {
 					transition: ".5s",
 				    }}>
 					<img 
+					alt="skill-item"
 					src={skill.img}
 					style={{
 						width:'50px',

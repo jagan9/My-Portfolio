@@ -1,6 +1,5 @@
 import React from 'react';
 import {Box} from '@material-ui/core';
-import Avatar from '@material-ui/core/Avatar';
 import Chip from '@material-ui/core/Chip';
 import InfoIcon from '@material-ui/icons/Info';
 import GitHubIcon from '@material-ui/icons/GitHub';

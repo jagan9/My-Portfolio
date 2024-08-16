@@ -40,22 +40,22 @@ class Header extends React.Component {
 					</div>
 
 					<div className="social">
-						<a href="https://www.linkedin.com/in/kamandla-jagan-b751501ab/" target="_blank">
+						<a href="https://www.linkedin.com/in/kamandla-jagan-b751501ab/" rel="noopener noreferrer">
 							<LinkedInIcon fontSize="large" />
 						</a>
-						<a href="https://www.codechef.com/users/jagan_9" target="_blank">
+						<a href="https://www.codechef.com/users/jagan_9" rel="noopener noreferrer">
 							<Codechef fontSize="large" />
 						</a>
-						<a href="mailto:kamandlajagan@gmail.com" target="_blank">
+						<a href="mailto:kamandlajagan@gmail.com" rel="noopener noreferrer">
 							<EmailIcon fontSize="large" />
 						</a>
-						<a href="http://github.com/jagan9" target="_blank">
+						<a href="http://github.com/jagan9" rel="noopener noreferrer">
 							<GitHubIcon fontSize="large" />
 						</a>
 						
 						
 					</div>
-					<a href="/jagancv.pdf" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: "none" }}>
+					<a href="/jagancv.pdf" rel="noopener noreferrer"  style={{ color: 'white', textDecoration: "none" }}>
 						<button>
 							Download Resume {" "}<InsertDriveFileIcon style={{ paddingLeft: "10px" }} />
 						</button>

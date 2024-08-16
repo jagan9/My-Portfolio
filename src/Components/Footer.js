@@ -29,16 +29,16 @@ class Footer extends React.Component {
 			</p>
 
 			<div className="social" style={{textAlign:"center"}}>
-			  <a href="https://www.linkedin.com/in/kamandla-jagan-b751501ab/" target="_blank">
+			  <a href="https://www.linkedin.com/in/kamandla-jagan-b751501ab/" rel="noopener noreferrer">
 			 <LinkedInIcon />
 			 </a>
-			 <a href="https://www.codechef.com/users/jagan_9" target="_blank">
+			 <a href="https://www.codechef.com/users/jagan_9" rel="noopener noreferrer">
 			 <Codechef />
 			 </a>
-			 <a href="mailto:kamandlajagan@gmail.com" target="_blank">
+			 <a href="mailto:kamandlajagan@gmail.com" rel="noopener noreferrer">
 			 <EmailIcon />
 			 </a>
-			 <a href="http://github.com/jagan9" target="_blank">
+			 <a href="http://github.com/jagan9" rel="noopener noreferrer">
 			 <GitHubIcon />
 			 </a>
 			
